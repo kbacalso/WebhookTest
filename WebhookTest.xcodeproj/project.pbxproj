@@ -96,8 +96,8 @@
 				TargetAttributes = {
 					3FCC6FB61DCAFB08006649D5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = HDFP2R3PJP;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 59636WNZ2S;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -204,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,11 +259,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HDFP2R3PJP;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 59636WNZ2S;
 				INFOPLIST_FILE = WebhookTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taki.WebhookTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyscorpions.tiangge.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32a35413-16c7-48d6-9b59-cba7c47bc95b";
+				PROVISIONING_PROFILE_SPECIFIER = Tiangge;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,11 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HDFP2R3PJP;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 59636WNZ2S;
 				INFOPLIST_FILE = WebhookTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taki.WebhookTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyscorpions.tiangge.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32a35413-16c7-48d6-9b59-cba7c47bc95b";
+				PROVISIONING_PROFILE_SPECIFIER = Tiangge;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
